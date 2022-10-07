@@ -59,9 +59,6 @@
     opacity: .8;
 }
 
-.copyright i {
-    color: rgb(212, 0, 0);
-}
 
 @media screen and (max-width: 768px) {
     .footer {

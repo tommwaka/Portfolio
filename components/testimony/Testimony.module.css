@@ -82,6 +82,7 @@
 @media screen and (max-width: 768px) {
     .testimony {
         flex-direction: column;
+        align-items: start;
         gap: 2rem;
     }
 
@@ -94,10 +95,6 @@
 }
 
 @media screen and (max-width: 640px) {
-    .testimony {
-        align-items: start;
-    }
-
     .imageContainer  {
         width: 150px;
         height: 150px;
