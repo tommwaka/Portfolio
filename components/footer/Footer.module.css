@@ -4,7 +4,7 @@
     position: absolute;
     width: 100%;
     bottom: 0;
-    height: 15rem;
+    height: 13rem;
 }
 
 .container {
@@ -65,7 +65,7 @@
 
 @media screen and (max-width: 768px) {
     .footer {
-        height: 18rem;
+        height: 15rem;
     }
 
     .container {
@@ -77,11 +77,13 @@
 }
 
 @media screen and (max-width: 640px) {
-    .footer {
-        height: 20rem;
-    }
-
     .copyright {
         flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .footer {
+        height: 17rem;
     }
 }
