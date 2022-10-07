@@ -1,5 +1,5 @@
-import Head from 'next/head'
-import Image from 'next/image'
+import Head from "next/head";
+import Image from "next/image";
 import {
 	Contact,
 	Layout,
@@ -16,12 +16,8 @@ export default function Home() {
 		<>
 			<Head>
 				<title>Tom Mwaka | UI/UX Designer</title>
-				<meta
-					name="description"
-					content="UI/UX Designer: (Figma, Adobe XD)"
-				/>
-								<meta name="keywords" content="Tom Mwaka, UI/UX Design" />
-
+				<meta name="description" content="UI/UX Designer: (Figma, Adobe XD)" />
+				<meta name="keywords" content="Tom Mwaka, UI/UX Design" />
 			</Head>
 			<Layout>
 				<Hero />

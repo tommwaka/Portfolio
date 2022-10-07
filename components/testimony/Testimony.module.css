@@ -75,13 +75,14 @@
 
 @media screen and (max-width: 1000px) {
     .testimony {
-        margin-right: 0;
+        margin-right: 3rem;
     }
 }
 
 @media screen and (max-width: 768px) {
     .testimony {
         flex-direction: column;
+        align-items: start;
         gap: 2rem;
     }
 
@@ -93,7 +94,24 @@
     }
 }
 
-@media screen and (max-width: 624px) {
+@media screen and (max-width: 640px) {
+    .imageContainer  {
+        width: 150px;
+        height: 150px;
+}
+
+    .imageContainer .image {
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+    }
+
+    .imageContainer::after {
+        display: none;
+}
+
     .description {
         font-size: 1rem;
     }
@@ -105,4 +123,5 @@
     .role {
         font-size: 1rem;
     }
+    
 }

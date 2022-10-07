@@ -4,7 +4,7 @@
     position: absolute;
     width: 100%;
     bottom: 0;
-    height: 15rem;
+    min-height: 15rem;
 }
 
 .container {
@@ -59,15 +59,8 @@
     opacity: .8;
 }
 
-.copyright i {
-    color: rgb(212, 0, 0);
-}
 
 @media screen and (max-width: 768px) {
-    .footer {
-        height: 18rem;
-    }
-
     .container {
         flex-direction: column;
         align-items: center;
@@ -77,11 +70,13 @@
 }
 
 @media screen and (max-width: 640px) {
-    .footer {
-        height: 20rem;
-    }
-
     .copyright {
         flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .footer {
+        min-height: 17rem;
     }
 }

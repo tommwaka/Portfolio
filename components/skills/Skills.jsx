@@ -21,9 +21,7 @@ const Skills = () => {
 					data-aos-duration="1800"
 				>
 					<Subtitle text="My Skills" />
-					<h2 className={styles.title}>
-						Why Hire Me For Your Next <br /> Project?
-					</h2>
+					<h2 className={styles.title}>Why Hire Me For Your Next Project?</h2>
 					<p className={styles.description}>
 						I approach every product or service with a design thinking mindset
 						with the aim of boosting business revenue growth rate, increasing
