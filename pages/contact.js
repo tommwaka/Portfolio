@@ -54,7 +54,7 @@ const contact = () => {
 								<SocialIcon
 									title="Email"
 									icon="fa-envelope"
-									content="tom@gmail.com"
+									content="mwakathomas7@gmail.com"
 								/>
 							</div>
 						</div>
