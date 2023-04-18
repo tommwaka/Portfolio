@@ -1,5 +1,3 @@
-import image from "../public/assets/project.png";
-
 export const projects = [
 	{
 		title: "Faraja",
@@ -10,7 +8,7 @@ export const projects = [
 		url: "https://behance.com"
 	},
 	{
-		title: "Mahanaim",
+		title: "Sacco Suite Portal",
 		subtitle: "Project 1",
 		description:
 			"The world breaks everyone, and afterwards, many are strong at the broken places. The world breaks everyone, and afterwards, many are strong at the broken places. The world breaks everyone, and afterwards, many are strong at the broken places. The world breaks everyone, and afterwards, many are strong at the broken places.",
