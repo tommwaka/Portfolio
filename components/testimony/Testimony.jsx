@@ -10,7 +10,7 @@ const Testimony = ({ testimony }) => {
 			<div
 				className={styles.imageContainer}
 				data-aos="zoom-in"
-				data-aos-duration="1800"
+				data-aos-duration="800"
 			>
 				<Image
 					src={testimony.image}
@@ -21,7 +21,7 @@ const Testimony = ({ testimony }) => {
 			<div
 				className={styles.content}
 				data-aos="fade-up"
-				data-aos-duration="1800"
+				data-aos-duration="1000"
 			>
 				<i className="fas fa-quote-left"></i>
 				<h1 className={styles.description}>{testimony.description}</h1>
