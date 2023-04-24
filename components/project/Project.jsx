@@ -21,7 +21,7 @@ const Project = ({ project }) => {
 				</p>
 				<Link href={`/projects/${url}`}>
 					<a className={styles.more}>
-						<i className="fas fa-arrow-right-long"></i>Read more
+						<i className="fas fa-arrow-right-long"></i>View Case Study
 					</a>
 				</Link>
 			</div>

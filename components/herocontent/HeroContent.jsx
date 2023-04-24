@@ -22,7 +22,7 @@ const HeroContent = () => {
 				data-aos="fade-down"
 				data-aos-duration="1600"
 			>
-				I am a UX Designer based in Nairobi, Kenya. I approach design with a focus on people, establishing empathy 
+				I'm a Product Designer based in Nairobi, Kenya. I approach design with a focus on people, establishing empathy 
 for both the people who make and the people who use the products I help bring to life. 
 
 
