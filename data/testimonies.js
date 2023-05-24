@@ -12,10 +12,10 @@ export const testimonies = [
 	},
 	{
 		name: "Stephen Odipo",
-		role: "Sr. Analyst",
-		company: "Deloitte",
+		role: "Sr. Business Analyst",
+		company: "Deloitte Kenya",
 		description:
-			"The world breaks everyone, and afterwards, many are strong at the broken places. The world breaks everyone, and afterwards, many are strong at the broken places.",
+			"Thomas is a highly skilled and experienced UX designer who consistently delivers user-centric designs that meet business objectives. His strong attention to detail, excellent communication skills, and passion for creating exceptional user experiences make him a valuable asset to any UX design team.",
 		image: odipo,
 	},
 ];
