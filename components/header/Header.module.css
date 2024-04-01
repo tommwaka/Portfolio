@@ -72,6 +72,14 @@
   width: 100%;
 }
 
+.header .nav .menu:hover {
+  color: var(--secondary);
+}
+
+.header .nav .menu:hover::after {
+  background-color: var(--secondary);
+}
+
 .header .contact {
   display: flex;
   justify-content: space-between;
