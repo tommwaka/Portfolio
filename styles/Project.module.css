@@ -1,74 +1,74 @@
 .project {
-    padding: 15rem 0 5rem 0;
+  padding: 15rem 0 5rem 0;
 }
 
 .container {
-    max-width: 1600px;
-    margin: auto;
-    display: flex;
-    align-items: start;
-    gap: 5rem;
+  max-width: 1500px;
+  margin: auto;
+  display: flex;
+  align-items: start;
+  gap: 5rem;
 }
 
 .imageContainer {
-    flex: 2;
+  flex: 2;
 }
 
-.imageContainer, .image {
-    border-radius: 5rem;
-    -webkit-border-radius: 5rem;
-    -moz-border-radius: 5rem;
-    -ms-border-radius: 5rem;
-    -o-border-radius: 5rem;
+.imageContainer,
+.image {
+  border-radius: 5rem;
+  -webkit-border-radius: 5rem;
+  -moz-border-radius: 5rem;
+  -ms-border-radius: 5rem;
+  -o-border-radius: 5rem;
 }
 
 .content {
-    flex: 1.5;
+  flex: 1.5;
 }
 
 .title {
-    color: var(--primary);
-    font-size: 3rem;
-    margin-bottom: 2rem;
+  color: var(--primary);
+  font-size: 3rem;
+  margin-bottom: 2rem;
 }
 
 .description {
-    color: var(--text-secondary);
-    margin-bottom: 3rem;
-    font-size: 1.1rem;
-    opacity: .9;
+  color: var(--text-secondary);
+  margin-bottom: 3rem;
+  font-size: 1.1rem;
+  opacity: 0.9;
 }
 
 .btnLaunch {
-    background-color: gray;
-    color: var(--white);
-    padding: .8rem 2rem;
-    border-radius: 2rem;
-    -webkit-border-radius: 2rem;
-    -moz-border-radius: 2rem;
-    -ms-border-radius: 2rem;
-    -o-border-radius: 2rem;
-    transition: all .5s ease;
-    -webkit-transition: all .5s ease;
-    -moz-transition: all .5s ease;
-    -ms-transition: all .5s ease;
-    -o-transition: all .5s ease;
+  background-color: gray;
+  color: var(--white);
+  padding: 0.8rem 2rem;
+  border-radius: 2rem;
+  -webkit-border-radius: 2rem;
+  -moz-border-radius: 2rem;
+  -ms-border-radius: 2rem;
+  -o-border-radius: 2rem;
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
 }
 
 .btnLaunch i {
-    margin-left: .5rem;
-    transition: all .5s ease;
-    -webkit-transition: all .5s ease;
-    -moz-transition: all .5s ease;
-    -ms-transition: all .5s ease;
-    -o-transition: all .5s ease;
+  margin-left: 0.5rem;
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
 }
 
 .btnLaunch:hover {
-    opacity: .8;
+  opacity: 0.8;
 }
 
 .btnLaunch:hover i {
-    margin-left: 1rem;
+  margin-left: 1rem;
 }
-

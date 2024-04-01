@@ -1,191 +1,199 @@
 .container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .image {
-    display: flex;
-    align-items: flex-end;
-    justify-content: center;
-    width: 600px;
-    height: 600px;
-    border: 6rem solid var(--primary);
-    border-radius: 50%;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -o-border-radius: 50%;
-    position: relative;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  width: 600px;
+  height: 600px;
+  border: 6rem solid var(--primary);
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  position: relative;
 }
 
 .heroImage {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 50%;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -o-border-radius: 50%;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
 }
 
-.figma, .xd, .miro, .zeplin {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    width: 100px;
-    height: 100px;
-    padding: 1.5rem;
-    background-color: var(--secondary-bg);
-    border-radius: 50%;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -o-border-radius: 50%;
+.figma,
+.xd,
+.miro,
+.zeplin {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  padding: 1.5rem;
+  background-color: var(--secondary-bg);
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
 }
 
 .figma {
-    left: -7rem;
-    top: 0rem;
+  left: -7rem;
+  top: 0rem;
 }
 
 .xd {
-    right: -7rem;
-    top: 0rem;
+  right: -7rem;
+  top: 0rem;
 }
 
 .miro {
-    left: -7rem;
-    bottom: 0rem;
+  left: -7rem;
+  bottom: 0rem;
 }
 
 .zeplin {
-    right: -7rem;
-    bottom: 0rem;
+  right: -7rem;
+  bottom: 0rem;
 }
 
 @media screen and (max-width: 768px) {
-    .image {
-        width: 100%;
-        height: 100%;
-    }
+  .image {
+    width: 100%;
+    height: 100%;
+  }
 }
 
 @media screen and (max-width: 640px) {
-    .image {
-        width: 100%;
-        height: 100%;
-    }
+  .image {
+    width: 100%;
+    height: 100%;
+  }
 
-    .figma, .xd, .miro, .zeplin {
-        width: 80px;
-        height: 80px;
-        padding: 1rem;
-    }
+  .figma,
+  .xd,
+  .miro,
+  .zeplin {
+    width: 80px;
+    height: 80px;
+    padding: 1rem;
+  }
 
-    .figma {
-        left: -6rem;
-        top: -1rem;
-    }
-    
-    .xd {
-        right: -6rem;
-        top: -1rem;
-    }
-    
-    .miro {
-        left: -6rem;
-        bottom: -1rem;
-    }
-    
-    .zeplin {
-        right: -6rem;
-        bottom: -1rem;
-    }
+  .figma {
+    left: -6rem;
+    top: -1rem;
+  }
+
+  .xd {
+    right: -6rem;
+    top: -1rem;
+  }
+
+  .miro {
+    left: -6rem;
+    bottom: -1rem;
+  }
+
+  .zeplin {
+    right: -6rem;
+    bottom: -1rem;
+  }
 }
 
 @media screen and (max-width: 540px) {
-    .image {
-        border-width: 5rem;
-    }
+  .image {
+    border-width: 5rem;
+  }
 
-    .figma {
-        left: -5rem;
-        top: -3rem;
-    }
-    
-    .xd {
-        right: -5rem;
-        top: -3rem;
-    }
-    
-    .miro {
-        left: -5rem;
-        bottom: -3rem;
-    }
-    
-    .zeplin {
-        right: -5rem;
-        bottom: -3rem;
-    }
+  .figma {
+    left: -5rem;
+    top: -3rem;
+  }
+
+  .xd {
+    right: -5rem;
+    top: -3rem;
+  }
+
+  .miro {
+    left: -5rem;
+    bottom: -3rem;
+  }
+
+  .zeplin {
+    right: -5rem;
+    bottom: -3rem;
+  }
 }
 
 @media screen and (max-width: 480px) {
-    .image {
-        border-width: 4.5rem;
-    }
+  .image {
+    border-width: 4.5rem;
+  }
 
-    .figma {
-        left: -4rem;
-        top: -3rem;
-    }
-    
-    .xd {
-        right: -4rem;
-        top: -3rem;
-    }
-    
-    .miro {
-        left: -4rem;
-        bottom: -3rem;
-    }
-    
-    .zeplin {
-        right: -4rem;
-        bottom: -3rem;
-    }
+  .figma {
+    left: -4rem;
+    top: -3rem;
+  }
+
+  .xd {
+    right: -4rem;
+    top: -3rem;
+  }
+
+  .miro {
+    left: -4rem;
+    bottom: -3rem;
+  }
+
+  .zeplin {
+    right: -4rem;
+    bottom: -3rem;
+  }
 }
 
-
 @media screen and (max-width: 400px) {
-    .image {
-        border-width: 3.5rem;
-    }
+  .image {
+    border-width: 3.5rem;
+  }
 
-    .figma, .xd, .miro, .zeplin {
-        width: 60px;
-        height: 60px;
-    }
+  .figma,
+  .xd,
+  .miro,
+  .zeplin {
+    width: 60px;
+    height: 60px;
+  }
 
-    .figma {
-        left: -2rem;
-        top: -3rem;
-    }
-    
-    .xd {
-        right: -2rem;
-        top: -3rem;
-    }
-    
-    .miro {
-        left: -2rem;
-        bottom: -3rem;
-    }
-    
-    .zeplin {
-        right: -2rem;
-        bottom: -3rem;
-    }
+  .figma {
+    left: -2rem;
+    top: -3rem;
+  }
+
+  .xd {
+    right: -2rem;
+    top: -3rem;
+  }
+
+  .miro {
+    left: -2rem;
+    bottom: -3rem;
+  }
+
+  .zeplin {
+    right: -2rem;
+    bottom: -3rem;
+  }
 }

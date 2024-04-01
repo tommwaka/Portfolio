@@ -1,57 +1,62 @@
 .stats {
-    padding: 4rem 1rem;
+  padding: 4rem 1rem;
 }
 
 .container {
-    max-width: 1600px;
-    margin: auto;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: .3rem;
-    position: relative;
+  max-width: 1500px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.3rem;
+  position: relative;
 }
 
-.donut, .circle {
-    position: absolute;
-    content: "";
-    z-index: -1;
-    height: 8rem;
-    width: 8rem;
-    border-radius: 50%;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -o-border-radius: 50%;
+.donut,
+.circle {
+  position: absolute;
+  content: "";
+  z-index: -1;
+  height: 8rem;
+  width: 8rem;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
 }
 
 .donut {
-    top: -3rem;
-    right: 4rem;
-    background-color: transparent;
-    border: 1.3rem solid var(--primary);
+  top: -3rem;
+  right: 4rem;
+  background-color: transparent;
+  border: 1.3rem solid var(--primary);
 }
 
 .circle {
-    bottom: -4rem;
-    left: 3rem;
-    background-color: var(--primary);
+  bottom: -4rem;
+  left: 3rem;
+  background-color: var(--primary);
+}
+
+@media screen and (max-width: 1500px) {
+  .stats {
+    padding: 4rem 5rem;
+  }
 }
 
 @media screen and (max-width: 1000px) {
-    .container {
-        grid-template-columns: 1fr;
-        gap: .1rem;
-    }
+  .container {
+    grid-template-columns: 1fr;
+    gap: 0.1rem;
+  }
 
-    .donut {
-        top: -3rem;
-        right: 0;
-    }
-    
-    .circle {
-        bottom: -4rem;
-        left: 0;
-    }
-    
+  .donut {
+    top: -3rem;
+    right: 0;
+  }
 
+  .circle {
+    bottom: -4rem;
+    left: 0;
+  }
 }

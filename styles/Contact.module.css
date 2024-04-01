@@ -1,92 +1,105 @@
 .contact {
-    padding: 15rem 1rem 10rem 1rem;
+  padding: 15rem 1rem 10rem 1rem;
 }
 
 .container {
-    max-width: 1600px;
-    margin: auto;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 10rem;
+  max-width: 1500px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10rem;
 }
 
 .title {
-    margin: .8rem 0 1rem 0;
-    font-size: 2rem;
-    font-weight: 600;
-    color: var(--white);
+  margin: 0.8rem 0 1rem 0;
+  font-size: 2rem;
+  font-weight: 600;
+  color: var(--white);
 }
 
 .description {
-    font-size: 1.1rem;
-    color: var(--text-secondary);
+  font-size: 1.1rem;
+  color: var(--text-secondary);
 }
 
 .icons {
-    margin-top: 2rem;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 2rem;
+  margin-top: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
 }
 
 .form form {
-    display: flex;
-    flex-direction: column;
-    gap: 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
 }
 
 .group {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 2rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
 }
 
-.form input, .form textarea {
-    outline: 0;
-    background-color: var(--primary-bg);
-    border: 1px solid var(--primary);
-    padding: 1rem 1.2rem;
-    color: var(--text-secondary);
-    font-size: 1.1rem;
-    border-radius: 1rem;
-    -webkit-border-radius: 1rem;
-    -moz-border-radius: 1rem;
-    -ms-border-radius: 1rem;
-    -o-border-radius: 1rem;
+.form input,
+.form textarea {
+  outline: 0;
+  background-color: var(--primary-bg);
+  border: 1px solid var(--primary);
+  padding: 1rem 1.2rem;
+  color: var(--text-secondary);
+  font-size: 1.1rem;
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
 }
 
-.form input::placeholder, .form textarea::placeholder {
-    color: var(--text-secondary);
-    opacity: .6;
+.form input::placeholder,
+.form textarea::placeholder {
+  color: var(--text-secondary);
+  opacity: 0.6;
 }
 
+@media screen and (max-width: 1500px) {
+  .contact {
+    padding: 15rem 5rem 10rem 5rem;
+  }
+}
 
 @media screen and (max-width: 1300px) {
-    .container {
-        display: flex;
-        flex-direction: column;
-        gap: 4rem;
-    }
+  .container {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+  }
 
-    .content {
-        border-bottom: 1px solid rgba(231, 231, 231, .1);
-        padding-bottom: 4rem;
-    }
+  .content {
+    border-bottom: 1px solid rgba(231, 231, 231, 0.1);
+    padding-bottom: 4rem;
+  }
 }
 
 @media screen and (max-width: 768px) {
-    .group {
-        grid-template-columns: 1fr;
-        gap: 3rem;
-    }
+  .group {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .contact {
+    padding: 15rem 2rem 10rem 2rem;
+  }
 }
 
 @media screen and (max-width: 624px) {
-    .title {
-        font-size: 1.4rem;
-    }
-    
-    .description {
-        font-size: 1rem;
-    }
+  .title {
+    font-size: 1.4rem;
+  }
+
+  .description {
+    font-size: 1rem;
+  }
 }

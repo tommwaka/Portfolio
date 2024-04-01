@@ -1,70 +1,67 @@
 .skill {
-    max-height: 420px;
-    text-align: center;
-    background-color: var(--primary-bg);
-    box-shadow: 4px 8px 16px #2d2e32;
-    padding: 4rem 2rem;
-    border-radius: 1rem;
-    -webkit-border-radius: 1rem;
-    -moz-border-radius: 1rem;
-    -ms-border-radius: 1rem;
-    -o-border-radius: 1rem;
-    transition: all .6s ease;
-    -webkit-transition: all .6s ease;
-    -moz-transition: all .6s ease;
-    -ms-transition: all .6s ease;
-    -o-transition: all .6s ease;
+  max-height: 500px;
+  text-align: center;
+  background-color: var(--primary-bg);
+  box-shadow: 4px 8px 16px #252529;
+  padding: 4rem 2rem;
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
 }
 
 .skill:nth-child(even) {
-    margin-top: 3rem;
+  margin-top: 3rem;
 }
 
 .skill:hover {
-    background-color: var(--primary);
+  background-color: var(--primary);
+  transition: all 1s ease;
 }
 
 .title {
-    color: var(--white);
-    margin: 1rem 0;
-    font-weight: 700;
-    font-size: 1.6rem;
-    transition: all .5s ease;
-    -webkit-transition: all .5s ease;
-    -moz-transition: all .5s ease;
-    -ms-transition: all .5s ease;
-    -o-transition: all .5s ease;
+  color: var(--white);
+  margin: 1rem 0;
+  font-weight: 700;
+  font-size: 1.6rem;
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
 }
 
 .description {
-    font-size: 1.1rem;
-    color: var(--text-primary);
-    transition: all .5s ease
+  font-size: 1.1rem;
+  color: var(--text-primary);
+  transition: all 0.5s ease;
 }
 
-.skill:hover .title, .skill:hover .description {
-    color: var(--secondary-bg);
+.skill:hover .title,
+.skill:hover .description {
+  color: var(--secondary-bg);
 }
 
 @media screen and (max-width: 1400px) {
-    .skill {
-        max-height: fit-content;
-    }
+  .skill {
+    max-height: fit-content;
+  }
 }
 
 @media screen and (max-width: 768px) {
-    .skill:nth-child(even) {
-        margin-top: 0;
-    }
+  .skill:nth-child(even) {
+    margin-top: 0;
+  }
 }
 
-@media screen and  (max-width: 624px) {
-    .title {
-        font-weight: 600;
-        font-size: 1.4rem;
-    }
-    
-    .description {
-        font-size: 1rem;
-    }
+@media screen and (max-width: 624px) {
+  .title {
+    font-weight: 600;
+    font-size: 1.4rem;
+  }
+
+  .description {
+    font-size: 1rem;
+  }
 }

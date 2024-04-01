@@ -1,8 +1,14 @@
 .testimonies {
-    padding: 8rem 2rem;
+  padding: 8rem 2rem;
 }
 
 .container {
-    max-width: 1240px;
-    margin: auto;
+  max-width: 1240px;
+  margin: auto;
+}
+
+@media screen and (max-width: 1500px) {
+  .testimonies {
+    padding: 8rem 5rem;
+  }
 }

@@ -1,74 +1,81 @@
 .projects {
-    padding: 10rem 1rem;
-    position: relative;
+  padding: 10rem 1rem;
+  position: relative;
 }
 
 .circle {
-    position: absolute;
-    content: "";
-    height: 18rem;
-    width: 18rem;
-    top: 57%;
-    background: transparent;
-    border: 4.5rem solid var(--secondary);
-    border-radius: 50%;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -o-border-radius: 50%;
+  position: absolute;
+  content: "";
+  height: 18rem;
+  width: 18rem;
+  top: 57%;
+  background: transparent;
+  border: 4.5rem solid var(--secondary);
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
 }
 
 .container {
-    max-width: 1300px;
-    margin: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    gap: 5rem;
+  max-width: 1500px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 5rem;
+}
+
+@media screen and (max-width: 1500px) {
+  .projects {
+    padding: 10rem 5rem;
+  }
 }
 
 @media screen and (max-width: 1200px) {
-    .circle {
-        height: 12rem;
-        width: 12rem;
-        border-width: 3rem;
-    }
+  .circle {
+    height: 12rem;
+    width: 12rem;
+    border-width: 3rem;
+  }
 }
 
 @media screen and (max-width: 1100px) {
-    .circle {
-        height: 10rem;
-        width: 10rem;
-        top: 55%;
-    }
+  .circle {
+    height: 10rem;
+    width: 10rem;
+    top: 55%;
+  }
 }
 
-
-
-
 @media screen and (max-width: 900px) {
-    .circle {
-        height: 12rem;
-        width: 12rem;
-        top: 60%;
-        right: 0;
-        border-width: 3rem;
-    }
+  .circle {
+    height: 12rem;
+    width: 12rem;
+    top: 60%;
+    right: 0;
+    border-width: 3rem;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .projects {
+    padding: 10rem 2rem;
+  }
 }
 
 @media screen and (max-width: 624px) {
-    .projects {
-        padding: 4rem 1rem;
-    }
+  .projects {
+    padding: 4rem 1rem;
+  }
 
-    .circle {
-        height: 8rem;
-        width: 8rem;
-        top: 60%;
-        right: 0;
-        border-width: 2rem;
-    }
+  .circle {
+    height: 8rem;
+    width: 8rem;
+    top: 60%;
+    right: 0;
+    border-width: 2rem;
+  }
 }
-
-

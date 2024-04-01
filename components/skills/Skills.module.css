@@ -1,54 +1,71 @@
 .skills {
-    padding: 10rem 1rem;
+  padding: 10rem 1rem;
 }
 
 .container {
-    max-width: 1600px;
-    margin: auto;
-    display: flex;
-    align-items: center;
-    gap: 8rem;
+  max-width: 1500px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  gap: 8rem;
 }
 
 .skillsContainer {
-    flex: 2;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 2rem;
+  flex: 2;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
 }
 
 .content {
-    flex: 1.5;
+  flex: 1.5;
 }
 
 .title {
-    color: var(--white);
-    margin: 1rem 0;
-    font-weight: 600;
-    font-size: 2rem;
-    max-width: 600px;
+  color: var(--white);
+  margin: 1rem 0;
+  font-weight: 600;
+  font-size: 2rem;
+  max-width: 600px;
 }
 
 .description {
-    color: var(--text-secondary);
-    margin-bottom: 4rem;
-    font-size: 1.1rem;
+  color: var(--text-secondary);
+  margin-bottom: 4rem;
+  font-size: 1.1rem;
+}
+
+@media screen and (max-width: 1500px) {
+  .skills {
+    padding: 10rem 5rem;
+  }
 }
 
 @media screen and (max-width: 1400px) {
-    .container {
-        flex-direction: column;
-    }
+  .container {
+    flex-direction: column-reverse;
+  }
 
-    .skillsContainer {
-        grid-template-columns: 1fr;
-        gap: 3rem;
-    }
+  .skillsContainer {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3rem;
+  }
+}
+
+@media screen and (max-width: 1500px) {
+  .skills {
+    padding: 10rem 2rem;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .skillsContainer {
+    grid-template-columns: 1fr;
+  }
 }
 
 @media screen and (max-width: 624px) {
-    .title {
-        font-size: 1.6rem;
-    }
-    
+  .title {
+    font-size: 1.6rem;
+  }
 }
