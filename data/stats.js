@@ -1,11 +1,11 @@
 export const stats = [
 	{
 		title: "Happy Clients",
-		number: 6,
+		number: 15,
 	},
 	{
 		title: "Projects Done",
-		number: 21,
+		number: 15,
 	},
 	{
 		title: "Certifications",
@@ -13,6 +13,6 @@ export const stats = [
 	},
 	{
 		title: "Years Experience",
-		number: 3,
+		number: 4,
 	},
 ];

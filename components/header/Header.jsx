@@ -38,7 +38,7 @@ const Header = () => {
 					</div>
 				<div className={styles.contact}>
 					<Icon url="https://www.behance.net/thomasmwaka" icon="behance" className={styles.contactIcon} />
-					<Button title="Contact Me" url="/contact" className={styles.contactIcon} />
+					<Button title="Let's Talk" url="/contact" className={styles.contactIcon} />
 				</div>
 			</div>
 		</header>

@@ -28,7 +28,7 @@ for both the people who make and the people who use the products I help bring to
 
 			</p>
 			<Button
-				title="Contact Me"
+				title="Let's Talk"
 				url="/contact"
 				dataAos="fade-up"
 				dataAosDuration="2000"

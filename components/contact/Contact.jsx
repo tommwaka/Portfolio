@@ -23,7 +23,7 @@ const Contact = () => {
 					to me about your project!
 				</p>
 				<Button
-					title="Contact Me"
+					title="Let's Talk"
 					url="contact"
 					dataAos="fade-up"
 					dataAosDuration="2400"

@@ -44,7 +44,7 @@ const Project = ({ project }) => {
 								className={styles.btnLaunch}
 								rel="noreferrer"
 							>
-								Launch Project<i className="fas fa-arrow-right-long"></i>
+								Launch Live Product<i className="fas fa-arrow-right-long"></i>
 							</a>
 						</div>
 					</div>
