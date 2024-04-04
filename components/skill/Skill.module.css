@@ -1,8 +1,8 @@
 .skill {
   max-height: 500px;
   text-align: center;
-  background-color: var(--primary-bg);
-  box-shadow: 4px 8px 16px #252529;
+  background-color: var(--secondary-bg);
+  border: 1px solid #222225;
   padding: 4rem 2rem;
   border-radius: 1rem;
   -webkit-border-radius: 1rem;

@@ -1,16 +1,16 @@
 .projects {
-  padding: 10rem 1rem;
+  padding: 5rem 1rem;
   position: relative;
 }
 
 .circle {
   position: absolute;
   content: "";
-  height: 18rem;
-  width: 18rem;
-  top: 57%;
+  height: 15rem;
+  width: 15rem;
+  top: 55%;
   background: transparent;
-  border: 4.5rem solid var(--secondary);
+  border: 4rem solid var(--secondary);
   border-radius: 50%;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;

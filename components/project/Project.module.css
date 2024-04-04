@@ -1,131 +1,191 @@
 .project {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    align-items: center;
-    gap: 10rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  gap: 10rem;
+}
+
+.project .content {
+  margin-bottom: 2.5rem;
 }
 
 .project:nth-child(even) .imageContainer {
-    order: -1;
+  order: -1;
 }
 
 .project:not(:last-child) {
-    margin-bottom: 10rem;
+  margin-bottom: 10rem;
 }
 
-.imageContainer, .image {
-    object-fit: cover;
-    max-width: 100%;
-    border-radius: 2rem;
-    -webkit-border-radius: 2rem;
-    -moz-border-radius: 2rem;
-    -ms-border-radius: 2rem;
-    -o-border-radius: 2rem;
+.imageContainer,
+.image {
+  object-fit: cover;
+  max-width: 100%;
+  border-radius: 2rem;
+  -webkit-border-radius: 2rem;
+  -moz-border-radius: 2rem;
+  -ms-border-radius: 2rem;
+  -o-border-radius: 2rem;
 }
 
 .imageContainer {
-    position: relative;
+  position: relative;
 }
 
 .imageContainer::after {
-    position: absolute;
-    content: "";
-    top: 0;
-    height: 90%;
-    max-width: 100%;
-    background-color: gray;
-    z-index: -1;
-    border-radius: 2rem;
-    -webkit-border-radius: 2rem;
-    -moz-border-radius: 2rem;
-    -ms-border-radius: 2rem;
-    -o-border-radius: 2rem;
-    transform: rotate(10deg);
-    -webkit-transform: rotate(10deg);
-    -moz-transform: rotate(10deg);
-    -ms-transform: rotate(10deg);
-    -o-transform: rotate(10deg);
+  position: absolute;
+  content: "";
+  top: 0;
+  height: 90%;
+  max-width: 100%;
+  background-color: gray;
+  z-index: -1;
+  border-radius: 2rem;
+  -webkit-border-radius: 2rem;
+  -moz-border-radius: 2rem;
+  -ms-border-radius: 2rem;
+  -o-border-radius: 2rem;
+  transform: rotate(10deg);
+  -webkit-transform: rotate(10deg);
+  -moz-transform: rotate(10deg);
+  -ms-transform: rotate(10deg);
+  -o-transform: rotate(10deg);
 }
 
 .project:nth-child(odd) .imageContainer::after {
-    width: 80%;
-    right: 0;
+  width: 80%;
+  right: 0;
 }
 
 .project:nth-child(even) .imageContainer::after {
-    left: 0;
-    width: 80%;
+  left: 0;
+  width: 80%;
 }
 
-
 .title {
-    font-size: 2rem;
-    margin: 1rem 0;
-    color: var(--white);
+  font-size: 2rem;
+  margin: 1rem 0;
+  color: var(--white);
 }
 
 .description {
-    font-size: 1.1rem;
-    margin-bottom: 2rem;
-    color: var(--text-secondary);
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+  color: var(--text-secondary);
 }
 
 .more {
-    color: var(--secondary);
-    opacity: .9;
-    font-size: 1.1rem;
-    transition: all .5s ease;
-    -webkit-transition: all .5s ease;
-    -moz-transition: all .5s ease;
-    -ms-transition: all .5s ease;
-    -o-transition: all .5s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  width: fit-content;
+  border: 1px solid var(--secondary);
+  color: var(--secondary);
+  padding: 0.8rem 2rem;
+  border-radius: 2rem;
+  -webkit-border-radius: 2rem;
+  -moz-border-radius: 2rem;
+  -ms-border-radius: 2rem;
+  -o-border-radius: 2rem;
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  /* opacity: 0.9; */
+  font-size: 1.1rem;
 }
 
 .more i {
-    margin-right: 1.5rem;
-    transition: all .5s ease;
-    -webkit-transition: all .5s ease;
-    -moz-transition: all .5s ease;
-    -ms-transition: all .5s ease;
-    -o-transition: all .5s ease;
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
 }
 
 .more:hover {
-    opacity: .8;
+  opacity: 0.8;
 }
 
 .more:hover i {
-    margin-right: 2rem;
+  margin-left: 1rem;
 }
 
 @media screen and (max-width: 900px) {
-    .project {
-        grid-template-columns: 1fr;
-        gap: 5rem;
-    }
+  .project {
+    grid-template-columns: 1fr;
+    gap: 5rem;
+  }
 
-    .imageContainer {
-        padding: 0 2rem;
-    }
+  .imageContainer {
+    padding: 0 2rem;
+  }
 
-    .project:nth-child(even) .imageContainer {
-        order: 2;
-    }
+  .project:nth-child(even) .imageContainer {
+    order: 2;
+  }
 
-    .project:not(:last-child) {
-        margin-bottom: 3rem;
-    }
-    
-    
+  .project:not(:last-child) {
+    margin-bottom: 3rem;
+  }
 }
 
 @media screen and (max-width: 624px) {
-    .title {
-        font-size: 1.6rem;
-        font-weight: 600;
-    }
-    
-    .description {
-        font-size: 1rem;
-    }
+  .title {
+    font-size: 1.6rem;
+    font-weight: 600;
+  }
+
+  .description {
+    font-size: 1rem;
+  }
+}
+
+.btnLaunch {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  background-color: var(--secondary);
+  color: var(--black);
+  padding: 0.8rem 2rem;
+  border-radius: 2rem;
+  -webkit-border-radius: 2rem;
+  -moz-border-radius: 2rem;
+  -ms-border-radius: 2rem;
+  -o-border-radius: 2rem;
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+}
+
+.btnLaunch i {
+  margin-left: 0.5rem;
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+}
+
+.btnLaunch:hover {
+  opacity: 0.8;
+}
+
+.btnLaunch:hover i {
+  margin-left: 1rem;
+}
+
+.role {
+  color: var(--white);
+  opacity: 0.7;
+  font-size: 1rem;
+}
+
+.ctaContainer {
+  display: flex;
+  gap: 2rem;
 }
