@@ -1,26 +1,21 @@
 export const skills = [
 	{
 		icon: require("../public/assets/vd.png"),
-		title: "Visual Design",
+		title: "UX Design",
 		description:
-			"My main focus and goal as a visual designer is to minimize the need for written instructions. Ideally, users should need nothing more than visual cues to navigate and find whatever they need.",
+			"I focus on creating products, systems, and services that are intuitive, efficient, and enjoyable for users making interactions with products and services seamless, satisfying, and meaningful.",
 	},
 	{
 		icon: require("../public/assets/ux.png"),
 		title: "UX Research",
 		description:
-			"As a UX Researcher I use research & analysis gathering qualitative & quantitative data about users. To achieve this, I use these UX methods; Interviews, user observation, surveys and focus groups. ",
+			"I focus on understanding user behaviors, needs, and motivations to inform the creation of better user experiences. I employ techniques like interviews, surveys, usability testing to uncover user pain points, preferences, and goals. ",
 	},
 	{
 		icon: require("../public/assets/int.png"),
-		title: "Interaction Design",
+		title: "UX Strategy",
 		description:
-			"Intuitive interaction design is key for digital products. Users are able to achieve their goals with minimal effort. Therefore, I focus mainly on infomartion access, screen layout & user flows.",
+			"I define the overarching goals and vision for the user experience, identifying target users and their needs through research and analysis, and developing a roadmap to guide design and development efforts.",
 	},
-	{
-		icon: require("../public/assets/skill.png"),
-		title: "Interpersonal Skills",
-		description:
-			"UI/UX Majorly focus on people so am always curios about what motivates users to empathize with them and communicate it well to stakeholders for implementation based on research findings.",
-	},
+	
 ];

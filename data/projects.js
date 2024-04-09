@@ -1,57 +1,48 @@
-import jumba from "../public/assets/Jumba.png";
-import sacco from "../public/assets/sacco.png";
-import merchant from "../public/assets/merchant.png";
-import wedco from "../public/assets/wedco.png";
-import fye from "../public/assets/fye.png";
+import jumba from "../public/assets/Jumba.png"
+import agent from "../public/assets/Agent.png"
+import green from "../public/assets/Green.png"
+import wedco from "../public/assets/wedco.png"
+
+
 
 export const projects = [
-  {
-    title: "Jumba Ecommerce",
-    subtitle: "Construction Materials Ecommerce",
-    description:
-      "Your one-stop marketplace for construction materials. We offer a wide range of products to meet all your construction needs.",
-    image: jumba,
-    liveUrl: "https://www.jumba.com/",
-    caseStudyUrl: "htsht",
-    role: "UX Designer",
-  },
-
-  {
-    title: "WEDCO Student Management System",
-    subtitle: "Student Management System",
-    description:
-      "This is a system designed and developed to enable the organization enroll students, manage students and provide coaching resources to the students. It has several portals based on user logged in which include students, alumni, tutors, super admin and editors.",
-    image: wedco,
-    liveUrl: "https://wedcokenya.org/",
-    role: "UX Designer",
-  },
-
-  {
-    title: "Sacco Suite Portal",
-    subtitle: "Web Platform",
-    description:
-      "This platform aims at digitizing workflow processes within our Sacco ecosystem that have not digitized their workflows and still using uncentrallized repositories to store customer data.",
-    image: sacco,
-    liveUrl: "jhghgh",
-    role: "UX Designer",
-  },
-
-  {
-    title: "FYE",
-    subtitle: "Web Platform",
-    description:
-      "This website is designed and developed to give SME an opportunity to apply for funds to finance their businesses hence promoting their growth and availling them to a wide variety of customers.",
-    image: fye,
-    liveUrl: "http://www.fundmyenterprise.co.ke/",
-    role: "UX Designer",
-  },
-  {
-    title: "Merchant Term Loan",
-    subtitle: "Lending Mini-App",
-    description:
-      "Merchant term loan is a mini-app for merchants with agent & store numbers that allows them to access credit to boost their float hence promoting business continuity and pay later.",
-    image: merchant,
-    liveUrl: "#",
-    role: "UX Designer",
-  },
-];
+	{
+	  title: "Jumba Ecommerce",
+	  subtitle: "Project 1",
+	  description:
+		"Your one-stop marketplace for construction materials. We offer a wide range of products to meet all your construction needs.",
+	  image: jumba,
+	  liveUrl: "https://www.jumba.com/",
+	  role: "UX Designer",
+	},
+  
+	{
+	  title: "WEDCO Student Management System",
+	  subtitle: "Project 2",
+	  description:
+		"This is a system designed and developed to enable the organization enroll students, manage students and provide coaching resources to the students.",
+	  image: wedco,
+	  liveUrl: "https://wedcokenya.org/",
+	  role: "UX Designer Lead",
+	},
+  
+	{
+		title: "Agent Term Loan App",
+		subtitle: "Project  3",
+		description:
+			"A gateway access to affordable loan products for our M-PESA agents with valid agent number.",
+		image: agent,
+	  caseStudyUrl: "#",
+	  role: "UX Designer Lead",
+	},
+  
+	{
+		title: "Green Financing App",
+		subtitle: "Project 4",
+		description:
+			"A product to offer access zero carbon emission devices with carbon credit awards. This is to promote green financing initiatives",
+		image: green,
+		caseStudyUrl: "#",
+	    role: "UX Designer Lead",
+	},
+  ];

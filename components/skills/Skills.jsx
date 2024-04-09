@@ -10,12 +10,12 @@ const Skills = () => {
 	return (
 		<section className={styles.skills}>
 			<div className={styles.container}>
-				<div className={styles.skillsContainer}>
+			<div className={styles.skillsContainer}>
 					{skills.map((skill) => (
 						<Skill key={skill.index} skill={skill} />
 					))}
 				</div>
-				<div
+			<div
 					className={styles.content}
 					data-aos="fade-left"
 					data-aos-duration="1800"
@@ -23,15 +23,12 @@ const Skills = () => {
 					<Subtitle text="My Skills" />
 					<h2 className={styles.title}>Why Hire Me For Your Next Project?</h2>
 					<p className={styles.description}>
-						I approach every product or service with a design thinking mindset
-						with the aim of boosting business revenue growth rate, increasing
-						customer obsession, reducing customer acquisition cost as well as
-						giving customers the best user experience when interacting with the
-						product.
-						<br />
-						<br />
-						My design practice combines design thinking, user research, and
-						experience strategy, all with a relentless focus on the user.
+					   As a UX Designer with 3+ of professional experience, I specialize in crafting seamless digital experiences that prioritize user need
+					    and enhance usability. With a background in user research, interaction design, and prototyping, I excel at translating complex
+						 requirements into intuitive interfaces that resonate with diverse audiences. Leveraging my expertise in user-centered design
+						 principles and empathy-driven approach, I collaborate closely with cross-functional teams to conceptualize and iterate on
+						  innovative solutions. 
+						
 					</p>
 					<Button
 						target="_blank"
@@ -40,6 +37,8 @@ const Skills = () => {
 						download
 					/>
 				</div>
+				
+				
 			</div>
 		</section>
 	);
