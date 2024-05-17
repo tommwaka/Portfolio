@@ -1,4 +1,4 @@
-import alex from "../public/assets/user.jpeg";
+import alex from "../public/assets/alex.jpeg";
 import odipo from "../public/assets/odipo.jpeg";
 
 export const testimonies = [
@@ -12,8 +12,8 @@ export const testimonies = [
   },
   {
     name: "Stephen Odipo",
-    role: "Sr. Business Analyst",
-    company: "Deloitte Kenya",
+    role: "IT, Risk & Compliance Manager",
+    company: "Pesapal",
     description:
       "Thomas is a highly skilled and experienced UX designer who consistently delivers user-centric designs that meet business objectives. His strong attention to detail, excellent communication skills, and passion for creating exceptional user experiences make him a valuable asset to any UX design team.",
     image: odipo,

@@ -17,13 +17,13 @@ const HeroContent = () => {
 				<span className={styles.greeting}>Hello</span> <br /> I&#39;m Thomas
 				Mwaka
 			</h2>
+			
 			<p
 				className={styles.description}
 				data-aos="fade-down"
 				data-aos-duration="1600"
 			>
-				I&#39;m a Product Designer based in Nairobi, Kenya. I approach design with a focus on people, establishing empathy 
-for both the people who make and the people who use the products I help bring to life. 
+				Crafting Experiences, Shaping Perspectives: Explore My UX World! Where Innovation Meets Intuition 😎
 
 
 			</p>
