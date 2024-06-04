@@ -35,6 +35,7 @@ export const projects = [
 		"This is a system designed and developed to enable the organization enroll students, manage students and provide coaching resources to the students.",
 	  image: wedco,
 	  liveUrl: "https://wedcokenya.org/",
+	  caseStudyUrl: "https://www.behance.net/gallery/150586057/Wedco-Website",
 	  role: "UX Designer Lead",
 	},
   
