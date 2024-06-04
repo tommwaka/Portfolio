@@ -8,10 +8,10 @@ import jada from "../public/assets/Jada.png"
 
 export const projects = [
 	{
-	  title: "Jumba Ecommerce",
+	  title: "Ecommerce App",
 	  subtitle: "Project 1",
 	  description:
-		"Your one-stop marketplace for construction materials. We offer a wide range of products to meet all your construction needs.",
+		"Your one-stop marketplace for construction materials. Offering a wide range of products to meet all your construction needs.",
 	  image: jumba,
 	  liveUrl: "https://www.jumba.com/",
 	  caseStudyUrl: "https://www.behance.net/gallery/200243629/Ecommerce-App",
@@ -20,7 +20,7 @@ export const projects = [
   
 	  {
 		title: "Jada Base",
-		subtitle: "Project 5",
+		subtitle: "Project 2",
 		description:
 		  "This app is for a water supply company where employed technicians i.e plumbers get onboarded, assinged and track their tasks.",
 		image: jada,
@@ -29,8 +29,8 @@ export const projects = [
 	  },
 
 	{
-	  title: "WEDCO Student Management System",
-	  subtitle: "Project 6",
+	  title: "Student Management System",
+	  subtitle: "Project 3",
 	  description:
 		"This is a system designed and developed to enable the organization enroll students, manage students and provide coaching resources to the students.",
 	  image: wedco,
