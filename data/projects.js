@@ -15,39 +15,10 @@ export const projects = [
 		"Your one-stop marketplace for construction materials. We offer a wide range of products to meet all your construction needs.",
 	  image: jumba,
 	  liveUrl: "https://www.jumba.com/",
+	  caseStudyUrl: "#",
 	  role: "UX Designer",
 	},
   
-	{
-		title: "Agent Term Loan App",
-		subtitle: "Project  2",
-		description:
-			"A gateway access to affordable loan products for our M-PESA agents with valid agent number.",
-		image: agent,
-	  caseStudyUrl: "https://www.behance.net/gallery/198453751/Agents-Mini-App",
-	  role: "UX Designer Lead",
-	},
-
-	{
-		title: "Hustler Connect",
-		subtitle: "Project 3",
-		description:
-		  "This app gives casual labourers a platform to be discovered by employers and get hired for short or long term jobs.",
-		image: hustler,
-		caseStudyUrl: "https://www.behance.net/gallery/198501409/Hustler-Connect",
-		role: "UX Designer Lead",
-	  },
-
-	  {
-		title: "Green Financing App",
-		subtitle: "Project 4",
-		description:
-			"A product that offers access zero carbon emission devices with carbon credit awards. This is to promote green financing initiatives",
-		image: green,
-		caseStudyUrl: "https://www.behance.net/gallery/198453049/Green-Financing-App",
-	    role: "UX Designer Lead",
-	},
-
 	  {
 		title: "Jada Base",
 		subtitle: "Project 5",
@@ -68,5 +39,16 @@ export const projects = [
 	  role: "UX Designer Lead",
 	},
   
+	{
+		title: "Lorem Ipsum",
+		subtitle: "Project 3",
+		description:
+		  "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...",
+		image: hustleer,
+		caseStudyUrl: "https://www.behance.net/gallery/198501409/Hustler-Connect",
+		role: "UX Designer Lead",
+	  },
+
+
 	
   ];
