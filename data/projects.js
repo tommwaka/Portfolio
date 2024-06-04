@@ -14,7 +14,7 @@ export const projects = [
 		"Your one-stop marketplace for construction materials. We offer a wide range of products to meet all your construction needs.",
 	  image: jumba,
 	  liveUrl: "https://www.jumba.com/",
-	  caseStudyUrl: "#",
+	  caseStudyUrl: "https://www.behance.net/gallery/200243629/Ecommerce-App",
 	  role: "UX Designer",
 	},
   
