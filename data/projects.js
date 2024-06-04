@@ -1,4 +1,4 @@
-import jumba from "../public/assets/jumba.png"
+import jumba from "../public/assets/Jumba.png"
 
 import wedco from "../public/assets/wedco.png"
 
